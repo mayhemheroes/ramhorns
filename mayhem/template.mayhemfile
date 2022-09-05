@@ -1,0 +1,7 @@
+project: ramhorns
+target: template
+
+cmds:
+  - cmd: /template
+  - cmd: /template_no_inst @@
+    libfuzzer: false
